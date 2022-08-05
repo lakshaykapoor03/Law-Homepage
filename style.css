@@ -1,0 +1,91 @@
+body {
+    background-color: #2b2922;
+    height: 100vh;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+
+}
+
+.hero-heading {
+    font-size: 100px;
+    width: 800px;
+    font-family: 'Red Rose';
+    font-weight: 600;
+}
+
+.heading-2 {
+    width: 400px;
+    font-size: 20px;
+    line-height: 35px;
+
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: start;
+    color: darkgrey;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Dela Gothic One';
+    color: #fff;
+
+}
+
+.list-item {
+
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkgrey;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+
+.li-1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.button-small {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px 10px;
+    position: absolute;
+    right: 15%;
+    border: 1px solid #a08f36;
+    background-color: transparent;
+    color: #a08f36;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.continer {
+    display: grid;
+    justify-content: space-around;
+}
+
+.img-law {
+    position: absolute;
+    top: 40%;
+    clip: rect(200px, 1960px, 550px, 0px);
+    margin-bottom: 100px;
+}
